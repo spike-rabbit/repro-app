@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "compodoc": "npx compodoc -p tsconfig.doc.json",
+    "compodoc:serve": "npx compodoc -p tsconfig.doc.json --serve --port 4201"
   },
   "private": true,
   "dependencies": {
@@ -26,6 +28,7 @@
     "@angular-devkit/build-angular": "~12.1.1",
     "@angular/cli": "~12.1.1",
     "@angular/compiler-cli": "~12.1.1",
+    "@compodoc/compodoc": "^1.1.12",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "jasmine-core": "~3.7.0",
