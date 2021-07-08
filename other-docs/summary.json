@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Another Doc",
+    "file": "another.md",
+    "children": [
+      {
+        "title": "child",
+        "file": "child.md"
+      }
+    ]
+  }
+]

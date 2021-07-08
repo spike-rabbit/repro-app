@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
+## Other Docs
+
+[This link is relative and broken in Compodoc, but works on github](other-docs/another.md)
+
+[This link is absolute, but still broken in Compodoc, and works on github](/other-docs/another.md)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
